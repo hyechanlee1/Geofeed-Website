@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Senior Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Tracking the Evolution of Geofeeds: Data Validation and Adoption</h1>
+        <h3>Project Vision</h3>
+        <p>This research explores Geofeeds' validation, adoption, and development patterns as a future potential
+            for the improvement of IP geolocation. Geofeeds are independently published lists of IP address ranges linked
+            with geographic data, enabling the possibility for more accurate location data than using traditional methods.
+            Geofeeds have the ability to improve the accuracy of IP geolocation, which is important for such purposes as
+            online security, content delivery, and targeted services. But as great as this potential is, they're still new
+            and not widely adopted or fully understood.</p>
+        <p>We started by verifying the Geofeed data through an automated process that begins with checking for duplicate entries
+            to eliminate redundancy early on. Using the geofeed-validator tool, we then identified standard violations and 
+            formatting errors. After examining hundreds of thousands of entries, we found common issues such as incorrect IP 
+            prefixes and subdivision codes. We also quantified the frequency of these problems and identified the network organizations 
+            responsible. This gave us a clear picture of the most frequent errors and highlighted key areas for improving data quality.</p>
+        <p>The project's second section examined adoption. To determine how popular Geofeeds are, we mapped Geofeed entries to 
+            their corresponding Autonomous System Numbers (ASNs) using daily data snapshots from CAIDA. We kept track of how many 
+            ASes took part, how many IP ranges were covered, and how Geofeed coverage and errors changed over time. Between 
+            August 2024 and April 2025, we saw significant growth, especially in the deployment of IPv6, but we also noticed that 
+            most ASes still only published a small amount of Geofeed data.</p>
+        <p>This project is unique because it emphasizes automation to support continuous analysis. Prior research did not delve 
+            into error types but instead examined snapshots taken every few weeks. In addition to closing that gap, our work 
+            offers tools that researchers and network operators can use to more consistently track Geofeed adoption and data quality. 
+            Our method is more automated, more thorough, and more appropriate for long-term monitoring than previous studies. This 
+            project establishes the foundation for future IP geolocation that is more transparent and dependable by enhancing the way 
+            we validate and analyze Geofeeds.</p>
+        <h3> Our Team </h3>
+        <p>
+        <ul>
+            <li> Daniel Park: Student Researcher | Computer Science major</li>
+            <li> Hye Chan Lee: Student Researcher | Computer Science major | Data Science minor</li>
+        </ul>
+        </p>
+        <h3> Advisors </h3>
+        <p>
+        <ul>
+            <li>Professor Rocky Chang</li>
+        </ul>
+        </p>
+        <h3> Collaborators </h3>
+        <p>
+        <ul>
+            <li> Dr. Ricky Mok (CAIDA)</li>
+        </ul>
+        </p>
+        <h3> Project Resources</h3>
+        <p>
+        <ul>
+            <li><a href="https://computing.calvin.edu/">Department of Computer Science</a></li>
+            <li><a href="https://github.com/CAIDA/geofeedresearch">Our GitHub Repository</a></li>
+            <li><a href="https://github.com/CAIDA/geofeedresearch/blob/main/Website/Senior_project__Geofeed.pdf">Our Report</a></li>
+            <li><a 
+                    href="https://www.canva.com/design/DAGlM7A_WF8/BhsotJnesLgob4I_wRd4Tw/edit?utm_content=DAGlM7A_WF8
+                     &utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Project
+                    Presentation</a></li>
+            <li><a href="https://github.com/massimocandela/geofeed-validator?tab=readme-ov-file">Open-source
+                    Geofeed-validator</a></li>
+        </ul>
+        <h3> Prior Research Papers on Geofeeds</h3>
+        <p>
+            <ul>
+                <li><a href="https://github.com/CAIDA/geofeedresearch/blob/main/Website/PAM%20paper-67.pdf">You can find me here: A 
+                    Study of the Early Adoption of Geofeeds</a></li>
+                <li><a href="https://github.com/CAIDA/geofeedresearch/blob/main/Website/CoNext%20paper.pdf">Geofeeds: Revolutionizing
+                    IP Geolocation or Illusionary Promises?</a></li>
+            </ul>
+        </p>
+    </div>
+</body>
+
+</html>
