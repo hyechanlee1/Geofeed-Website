@@ -6,4 +6,4 @@ This is a website hosted using **GitHub Pages**. This site gives a basic overvie
 
 ## 🔗 Live Website
 
-👉 [Visit Website]([https://caida.github.io/geofeedresearch/](https://hyechanlee1.github.io/Geofeed-Website/))
+👉 [Visit Website](https://hyechanlee1.github.io/Geofeed-Website/)
